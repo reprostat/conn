@@ -1,5 +1,5 @@
-function [retval] = fd3(fid)
-% [retval] = fd3(fid)
+function [retval] = conn_freesurfer_fread3(fid)
+% [retval] = conn_freesurfer_fread3(fid)
 % read a 3 byte integer out of a file
 
 
@@ -13,7 +13,7 @@ function [retval] = fd3(fid)
 %    $Revision: 1.2 $
 %
 % Copyright (C) 2002-2007,
-% The General Hospital Corporation (Boston, MA). 
+% The General Hospital Corporation (Boston, MA).
 % All rights reserved.
 %
 % Distribution, usage and copying of this software is covered under the
